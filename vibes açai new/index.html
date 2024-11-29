@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibes Açaí</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="shortcut icon" href="./img/logo.png"> 
+  
+</head>
+<body>
+    <header>
+         <button class="openbtn" onclick="toggleNavbar()">&#9776;</button>
+        <img src="./img/logo.png" alt="Logo da Açaí">  
+        <div class="navbar" id="myNavbar">
+            <button class="closebtn" onclick="toggleNavbar()">&larr; </button> 
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre-container">Sobre Nós</a>
+            <a href="#acompanhamentos" onclick="showAcompanhamentos()">Acompanhamentos</a> 
+        </div>   
+    </div> 
+   
+
+    </header>
+    
+   
+   
+<div class="promo">
+
+      <img src="./img/promocoes.png"">
+    
+    </div>
+     <div class="menu-container">
+        <img src="./img/menu.png">
+        
+    </div>
+  
+<section class="produtos" id="produtos">
+   
+    <div class="produto">
+        <img src="./img/pic1.png" height="200px">
+        <p class="preco">R$ 18,00</p>
+    </div>
+    <div class="produto">
+        <img src="./img/pic2.png" alt="Açaí 2">
+        <p class="preco">R$ 25,00</p>
+    </div>
+    <div class="produto">
+        <img src="./img/pic3.png" alt="Açaí 3">
+        <p class="preco">R$ 30,00</p>
+    </div>
+</section>
+
+<section class="produtos">
+    <div class="produto">
+        <img src="./img/pic4.png"alt="açai 4">
+        <p class="preco">R$ 40,00</p>
+    </div>
+    <div class="produto">
+        <img src="./img/pic5.png" alt="Açaí 5">
+        <p class="preco">R$ 50,00</p>
+    </div>
+    <div class="produto">
+        <img src="./img/pic6.png">
+        <p class="preco">R$ 65,00</p>
+    </div>
+</section>
+
+<section class="sobre-container">
+    <img src="./img/equipe.jpeg" alt="Novo Açaí" style="flex: 1; width: 900px; height: 600px;">
+    <div class="descricao">
+        <h2>Nossa Equipe</h2>
+        <p>
+            A Vibes açai é uma rede de franquias que nasceu
+            em Piraquara - PR, cidade conhecida como manancial das águas.
+            Nossa loja sempre contou com grande circulação de clientes e sempre fomos destaque de qualidade,
+            bom atendimento e diferenciação na apresentação
+            de nossos produtos.
+            Após anos de desenvolvimento das atividades
+            em sua primeira unidade, formatamos os processos
+            para levar a marca para todo o Brasil através
+            de unidades franquadas.
+
+            </p>
+            <p>
+                Nossa equipe: Manuela Augustinho (Design gráfico), Mikael Marafigo (fornecedor e pesquisador de ingredientes), Beatrys Belo (gestão), 
+                Kamilly Victoria (líder de sustentabilidade), Nikolas Rocha (Consultor Jurídico), 
+                Eduardo Henrique (Consultor de Marketing) e Marco Antônio (Fundador Gastronômico).
+            </p>
+            <p>Quem Somos
+                Somos apaixonados por criar combinações deliciosas que atendem a todos os gostos e estilos de vida. Nosso açaí é cuidadosamente preparado com ingredientes frescos, 100% naturais e de alta qualidade. Trabalhamos para trazer até você o equilíbrio perfeito entre sabor e nutrição, sem abrir a mão da cremosidade e da refrescância que tornam nossos produtos tão
+        
+                Nossa Filosofia
+                Na Vibes Açaí ,
+                
+                Venha Fazer Parte da Nossa Vibe
+                Seja para uma pausa refrescante no meio do dia, um lanche energético ou uma sobremesa especial, estamos prontos para atender você com um sorriso no
+                
+                🌟 Vibes Açaí – Mais do que sabor, uma experiência que vibra com você! 🌟
+                
+                Estamos te esperando! Venha conhecer o lugar onde saúde e felicidade se encontra.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="social-icons">
+        <div>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+            <p>Instagram</p>
+        </div>
+        <div>
+            <img width="48" height="48" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/FFFFFF/external-whatsapp-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-whatsapp-social-media-tanah-basah-glyph-tanah-basah"/>
+            <p>WhatsApp</p>
+        </div>
+        <div>
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/tiktok--v1.png" alt="tiktok--v1"/>
+            <p>TikTok</p>
+        </div>
+    </div>
+    <div class="footer-links">
+        <p>Política de devolução e reembolso</p>
+        <p>Termos de uso</p>
+        <p>Política de entrega</p>
+    </div>
+</footer>
+
+<div class="modal-acompanhamentos" id="modalAcompanhamentos">
+    <span class="close-acompanhamentos" onclick="closeAcompanhamentos()">&times;</span>
+    <h2>Acompanhamentos</h2>
+    <ul>
+        <li>+ Banana</li>
+        <li>+ Leite em Pó</li>
+        <li>+ Confeitos</li>
+        <li>+ Leite Condensado</li>
+        <li>+ Ovomaltine</li>
+        <li>+ Morango</li>
+        <li>+ Kiwi</li>
+        <li>+ Nutella</li>
+        <li>+ Chocolate Ao Leite</li>
+        <li>+ Chocolate Branco</li>
+        <li>+ Tubets</li>
+        <li>+ ChocoBall</li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+<script>
+    function showAcompanhamentos() {
+        document.getElementById('modalAcompanhamentos').style.display = 'block';
+    }
+
+    function closeAcompanhamentos() {
+        document.getElementById('modalAcompanhamentos').style.display = 'none';
+    }
+</script>
+
+</body>

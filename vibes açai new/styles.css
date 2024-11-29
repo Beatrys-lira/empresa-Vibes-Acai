@@ -1,0 +1,347 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  background-color: #6A1B9A;
+}
+
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 700px 0;
+    height: 100px; 
+    padding: 0;
+}
+
+.descricao-container {
+    display: flex;
+    margin-top: 20px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.descricao {
+    padding: 20px;
+    flex: 1; 
+    background-color: #6A1B9A;
+    color: #ccc;
+}
+
+.descricao img {
+    flex: 1; 
+    width: 100%; 
+    height: auto; 
+    background-color: #6A1B9A;
+    color: #ccc;
+}
+
+.modal-acompanhamentos {
+    display: none; 
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 1000; 
+}
+
+.modal-acompanhamentos h2 {
+    margin-top: 0;
+}
+
+.close-acompanhamentos {
+    cursor: pointer;
+    color: rgb(128, 65, 141);
+    float: right;
+}
+
+.modal-acompanhamentos ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.modal-acompanhamentos li {
+    margin: 5px 0; 
+}
+.modal-acompanhamentos{  
+    font-family: Arial, sans-serif;  }
+    
+    .produto-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .modal-acompanhamentos {
+        display: none; 
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+        background-color: #800080;
+        border: 1px solid #140c16;
+    
+        padding: 20px;
+        z-index: 1000; 
+    }
+
+    .modal-acompanhamentos h2 {
+        margin-top: 0;
+    }
+
+    .close-acompanhamentos {
+        cursor: pointer;
+        color: red;
+        float: right;
+    }
+
+    .modal-acompanhamentos ul {
+        list-style-type: none; 
+        padding: 0; 
+    }
+
+    .modal-acompanhamentos li {
+        margin: 5px 0; 
+    }
+   
+    header {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        padding: 10px;
+    }
+
+    .descricao-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .descricao {
+        padding: 20px;
+        flex: 1; 
+    }
+
+    .descricao img {
+        flex: 1; 
+        width: 100%; 
+        height: auto; 
+    }
+
+    .sobre-container {
+        display: flex;
+        margin-top: 20px;
+        color: #6A1B9A;
+    ;
+    }
+
+    .modal-acompanhamentos {
+        display: none; 
+        position: fixed;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        z-index: 1000; 
+    }
+
+    .modal-acompanhamentos h2 {
+        margin-top: 0;
+    }
+    
+
+    .close-acompanhamentos {
+        cursor: pointer;
+        color: rgb(100, 16, 82);
+        float: right;
+    }
+
+    .promocao img, .produto img {
+        width: 35px; 
+        height: 25px; 
+    }
+
+    .modal-acompanhamentos ul {
+        list-style-type: none; 
+        padding: 0; 
+        background-color: #800080;
+    }
+
+    .modal-acompanhamentos li {
+        margin: 5px 0; 
+    }
+
+header {
+    text-align: center;
+    background-color: #650981;
+    color: white;
+    padding: 20px 0;
+}
+header img {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+.navbar {
+    height: 100%; /* Altura total */
+    width: 200px; /* Largura da barra lateral */
+    position: fixed; /* Fixa na lateral */
+    z-index: 1; /* Fica acima de outros elementos */
+    top: 0;
+    left:-250px; /* Inicialmente escondida */
+    background-color: #800080;
+    transition: 0.3s; /* Transição suave */
+   align-items: left;
+}
+.navbar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fcf8ff;
+    display: block;
+    transition: 0.3s;  
+      
+}
+
+.navbar a:hover {
+    background-color: #eb91eb;
+ }
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #6A1B9A; /* Cor do botão */
+    color: white;
+    border: none;  
+    padding: 20px 15px;
+    margin: 20px;
+    border-radius: 5px;
+  
+   
+}
+.closebtn {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6A1B9A; /* Cor do botão de fechar */
+    border: none;
+    text-align: left;
+}
+.navbar.open {
+    left: 0; /* Faz o menu aparecer */
+}
+.menu-container{
+    position: center;
+}
+.produtos {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+   
+}
+.produto {
+    margin: 80px;
+    text-align: center;
+}
+.produto img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.preco {
+    font-weight: bold;
+    color: #d9bceb;
+}
+.promocao-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.promocao {
+    margin: 10px;
+    text-align: center;
+}
+.descricao-container {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+.descricao-container img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+}
+.descricao {
+    padding: 20px;
+    width: 50%;
+    background-color: #6A1B9A;
+}
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+.social-icons div {
+    margin: 0 10px;
+    text-align: center;
+}
+.social-icons i {
+    font-size: 20px;
+    color: white;
+}
+
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #800080;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #808080;
+    width: 80%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color:#650981;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.footer-links {
+    font-size: 13px;
+    color: white;
+    text-align: center; /* Centraliza o texto */
+}
